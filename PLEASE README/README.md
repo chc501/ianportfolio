@@ -1,0 +1,3 @@
+I am actually trying to make my own Domain portfolio website on online after I uploaded the final assignment. I am uploading this file because I'm not sure why all my ICONS and Images are not showing up on my Domain after I used Github to create a repository to deploy on my website. However, I am able to see all the ICONS and Images when I am previewing with LIVE Server/Preview HTML for my FIRST UPLOADED FILE. So, I decided to upload this file because I just want to make sure you are able to see all my ICONS and Images on my final portfolio. 
+
+I also recorded a video to prove that what I can see on my screen.
