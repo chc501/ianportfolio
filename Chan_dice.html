@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>COGS3 - Best of 10!</title>
+  <link rel="stylesheet" href="dice_styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="container">
+  <svg width="2.5em" height="3em" viewBox="0 0 16 16" class="bi bi-dice-3" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M13 1H3a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zM3 0a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V3a3 3 0 0 0-3-3H3z"/>
+  <circle cx="4" cy="4" r="1.5"/>
+  <circle cx="12" cy="12" r="1.5"/>
+  <circle cx="8" cy="8" r="1.5"/>
+</svg>
+
+  <div class="container">
+    <svg width="2.5em" height="3em" viewBox="0 0 16 16" class="bi bi-dice-6-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M3 0a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V3a3 3 0 0 0-3-3H3zm1 5.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm8 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm1.5 6.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zM12 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM5.5 12a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zM4 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
+</svg>
+    <!-- Reports the values of the die and the sum -->
+    <h1>Let's Roll the Dice!</h1>
+
+    <!-- Reports the outcome of the bet -->
+    <h2>
+      If the dice add to anything above 9, you win $5! <br>
+      If the dice add to 5 or less, I win $5. <br>
+      Ready to play?
+    </h2>
+
+    <!-- JS will input the content -->
+    <h3></h3>
+
+    <div>
+      <p> Do you want to roll the dice? </p>
+      <button class="myBtn" onclick="letsPlay()">Let's Play !</button>
+    </div>
+
+    <div class="dice">
+      <img class="img1" src="dice_images/dice6.png">
+    </div>
+
+    <div class="dice">
+      <img class="img2" src="dice_images/dice6.png">
+    </div>
+  </div>
+
+  <footer>
+    COGS3 - Dice Game Bet 10 - Ian ChingHei Chan - 11/22/2020
+  </footer>
+
+  <script src="dice_index.js" charset="utf-8"></script>
+
+</body>
+
+</html>

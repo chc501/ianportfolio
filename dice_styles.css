@@ -1,0 +1,61 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #999999;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  margin: 30px;
+  text-shadow: 1px 0 #8c8c8c;
+  font-size: 5rem;
+  font-weight: 200;
+  color: #000000;
+}
+
+h2, h3 {
+  margin: 30px;
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #cccccc;
+}
+
+p {
+  color: #333333;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+img {
+  width: 80%;
+  background-color: #000000;
+  border-radius: 30%;
+  mix-blend-mode: hard-light;
+}
+
+/* Buttons */
+.myBtn {
+  margin: 10% 2.5% 5% 0;
+
+}
+
+.myBtn {
+  margin: 30px;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
