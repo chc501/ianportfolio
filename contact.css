@@ -47,9 +47,9 @@ h1 {
     margin: 0;
 }
 h3 {
-    place-content: center;
+    
     color: #626262;
-   
+    
 }
 
 .card::after{
